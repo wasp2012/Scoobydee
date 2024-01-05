@@ -123,7 +123,6 @@ button:hover {
 .find-job-section {
   display: inline-block;
   position: absolute;
-
   width: 1640px;
   height: 859px;
   border: 8px solid #8668f2;
@@ -167,7 +166,6 @@ p.small {
 }
 
 .box {
-  display: flexbox;
   flex-direction: row;
   justify-content: start;
   align-items: center;
