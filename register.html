@@ -14,47 +14,51 @@
     <div class="container">
       <div class="register">
         <header>
-          <a href="./index.html">
-            <img src="assets/svgs/Back.svg" width="32" height="32" />
-          </a>
-          <h3>Already A Member? <a href="./signin.html">Sign In</a></h3>
+         
+          <h3>Already a member? <a href="./signin.html">Sign In</a></h3>
         </header>
         <h1>Scoobydee</h1>
+        <form action="">
         <div class="names">
           <div class="input">
             <i class="fa-solid fa-user"></i>
-            <input type="text" placeholder="Full Name" />
+            <input class="fullname" type="text" placeholder="Full Name" />
           </div>
-          <div class="input">
+          <div class="input username">
             <i class="fa-solid fa-fire-flame-curved"></i>
             <input type="text" placeholder="Username" />
           </div>
         </div>
         <div class="input">
           <i class="fa-solid fa-envelope"></i>
-          <input type="text" placeholder="Your E-Mail" />
+          <input  type="text" placeholder="Your E-Mail" />
         </div>
         <div class="input">
           <i class="fa-solid fa-key"></i>
           <input type="password" placeholder="password" />
-        </div>
-        <div class="checkbox">
-          <input type="checkbox" />
-          <p>
+        </div>    <div class="checkbox">
+          <input id="checkbox" type="checkbox" />
+          <p class="terms">
             Creating an account means you’re okay with our Terms of Serv-ice,
             Privacy Policy, and our default Notification Settings.
           </p>
+          </div>
+          <button type="button" name="findJob">Create Account</button>
+
+        </form>
+    
+        
         </div>
-        <button type="button" name="findJob">Create Account</button>
-      </div>
-      <div class="invite">
-        <img src="assets/svgs/character.svg" width="400" height="400" />
-        <img class="background" src="assets/svgs/Background.svg" />
-        <div class="invite-text">
-          <h1>Invite friends</h1>
-          <h3>and enjoy incredible benefits</h3>
+        <div class="invite">
+          <img src="assets/svgs/character.svg" width="400" height="400" />
+          <img class="background" src="assets/svgs/Background.svg" />
+          <div class="invite-text">
+            <h1>Invite friends</h1>
+            <h3>and enjoy incredible benefits</h3>
+          </div>
         </div>
       </div>
+   
     </div>
   </body>
 </html>
