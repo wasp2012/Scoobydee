@@ -1,0 +1,37 @@
+a{
+    color: #8790A2;
+    text-decoration-line: none;
+}
+
+a:visited{
+    color: #8790A2;
+    text-decoration-line: none;
+
+}
+
+.checkbox{
+    margin: 0px;
+    padding: 0px;
+    width: 800px;
+}
+
+button{
+margin-left: 90px;
+width: 210px;
+}
+
+.invite-text{
+    margin-bottom: 60px;
+    line-height: 10px;
+    
+}
+.invite-text h1{
+    font-size: 65px;
+    margin-left: 30px;
+}
+
+.invite-text h3{
+    font-size: 20px;
+    margin-left: 30px;
+    
+}
