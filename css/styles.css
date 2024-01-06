@@ -5,7 +5,7 @@ html {
 
 body {
   background-color: #263138;
-  font-family: "Helvetica Neue";
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   position: absolute;
 }
 * {
@@ -15,7 +15,7 @@ body {
 
 p {
   text-align: center;
-  font: normal normal bold 75px/86px "Helvetica Neue";
+  font: normal normal bold 75px/86px "Segoe UI";
   color: #ffffff;
   opacity: 1;
   margin-left: 791px;
@@ -65,14 +65,12 @@ li {
   color: #8790a2;
 }
 
-
 .menu a:hover {
   padding: 12px;
   background-color: transparent;
   border: 1px #fff solid;
   border-radius: 35px;
   padding: 15px 30px;
-  
 }
 
 .menu li {
@@ -93,9 +91,9 @@ li .sign-up {
   display: flex;
 }
 .mid-title p {
-/*  */
+  /*  */
   text-align: left;
-  font: normal normal bold 112px/129px "Helvetica Neue";
+  font: normal normal bold 112px/129px "Segoe UI";
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
@@ -181,23 +179,18 @@ p.small {
   margin-left: -200px;
 }
 
-
-.girl-holding-phone{
+.girl-holding-phone {
   overflow: hidden;
-  
 }
 
-
-.girl-holding-phone img{
+.girl-holding-phone img {
   position: absolute;
- right:-270px;
+  right: -270px;
   top: 60px;
   z-index: -1;
 }
 
-
-.footer-section{
-
+.footer-section {
   display: inline-block;
   position: absolute;
 
@@ -209,11 +202,9 @@ p.small {
   padding-bottom: 300px;
   margin-left: 143px;
   background-color: rgba(134, 104, 242, 0.13);
-
 }
 
-.footer-section-btm{
-
+.footer-section-btm {
   position: absolute;
   width: 100%;
 
@@ -229,16 +220,12 @@ p.small {
   box-sizing: border-box;
 }
 
-
-#footer-boxes{
-  
+#footer-boxes {
   display: flex;
   margin-top: 100px;
-  
 }
 
-
-.footer-box1 p{
+.footer-box1 p {
   flex: 2;
   display: flex;
   font-size: 50px;
@@ -247,7 +234,7 @@ p.small {
   text-align: left;
 }
 
-.footer-box2 p{
+.footer-box2 p {
   font-size: 20px;
   flex: 2;
   display: flex;
@@ -265,28 +252,25 @@ p.small {
   margin-left: 200px;
   text-align: left;
   letter-spacing: 2px;
-
 }
-.footer-box3 a{
-  color:#8790A2;
-  font-size:14px;
+.footer-box3 a {
+  color: #8790a2;
+  font-size: 14px;
 }
-.footer-box4{
+.footer-box4 {
   margin-top: 30px;
 }
 
-.footer-box4 p{
-  font: normal normal bold 20px/23px 'Helvetica Neue';
+.footer-box4 p {
+  font: normal normal bold 20px/23px "Segoe UI";
   flex: 2;
   margin-right: 71px;
   margin-left: 50px;
   letter-spacing: 2px;
   text-align: left;
-
-
 }
 
-.footer-box4 a:active{
+.footer-box4 a:active {
   color: #fff;
 }
 
@@ -296,13 +280,13 @@ p.small {
   text-decoration: none;
 }
 
-.footer-box4 a:hover  {
+.footer-box4 a:hover {
   color: #2d63c8;
   background-color: transparent;
   text-decoration: underline;
 }
 
-.credits{
+.credits {
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -310,7 +294,7 @@ p.small {
   padding: 20px;
 }
 
-.credits p{
+.credits p {
   font-size: 20px;
   line-height: 1;
   opacity: 1;
