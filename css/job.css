@@ -1,8 +1,5 @@
-html {
-    overflow-y: scroll;
-    overflow-x: scroll;
-  }
-  
+body{  overflow-x: hidden;
+}
 p {
     text-align: left;
     /* font: normal normal bold 75px/86px "Helvetica Neue"; */
@@ -15,6 +12,7 @@ p {
   }
   
   .find-job-section {
+  
     display: inline-block;
     position: absolute;
     width: 1640px;
@@ -25,6 +23,14 @@ p {
     margin-left: 143px;
     background-color: rgba(134, 104, 242, 0.13);
   }
+  .find-job-section img{
+    height: 100%;
+    width: 100%;
+    z-index: -999;
+    object-fit: cover;
+
+    position: absolute;
+  }
 
 .custom_input {
 	display: flex;
@@ -32,6 +38,7 @@ p {
 	position: relative;
     margin-left: 100px;
     margin-top: 25px;
+    z-index: 200;
 }
 
 .input {  
@@ -174,4 +181,12 @@ margin-bottom: 70px;
 margin-top: 70px;
 color: #FFFFFF;
 opacity: 0.7;
+}
+
+.girl-holding-cup{
+    margin-left: 300px;
+    margin-top: -370px;
+    z-index: 400;
+    position: absolute;
+
 }

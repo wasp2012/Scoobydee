@@ -1,8 +1,18 @@
+body{
+    overflow-x: hidden;
+
+}
 a{
     color: #8790A2;
     text-decoration-line: none;
 }
+button a{
+    color:white;
+}
 
+button a:visited{
+    color:white;
+}
 a:visited{
     color: #8790A2;
     text-decoration-line: none;

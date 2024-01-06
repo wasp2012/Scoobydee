@@ -1,12 +1,11 @@
-html {
-  overflow-y: scroll;
-  overflow-x: hidden;
-}
+
 
 body {
   background-color: #263138;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   position: absolute;
+  overflow-x: hidden;
+
 }
 * {
   margin: 0;
@@ -15,7 +14,7 @@ body {
 
 p {
   text-align: center;
-  font: normal normal bold 75px/86px "Segoe UI";
+  font: normal normal bold 75px/86px "Helvetica Neue";
   color: #ffffff;
   opacity: 1;
   margin-left: 791px;
@@ -24,6 +23,29 @@ p {
 
 a {
   text-decoration: none;
+}
+
+button a{
+  text-decoration: none;
+  color: white;
+
+}
+
+button a:visited{
+  text-decoration: none;
+  color: black;
+
+}
+
+.logo a{
+  text-decoration: none;
+  color: white;
+
+}
+.logo a:visited{
+  text-decoration: none;
+  color: white;
+
 }
 
 li {
@@ -91,9 +113,10 @@ li .sign-up {
   display: flex;
 }
 .mid-title p {
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
   /*  */
   text-align: left;
-  font: normal normal bold 112px/129px "Segoe UI";
+  font: normal normal bold 112px/129px "Helvetica Neue";
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
@@ -260,7 +283,7 @@ p.small {
 }
 
 .footer-box4 p {
-  font: normal normal bold 20px/23px "Segoe UI";
+  font: normal normal bold 20px/23px "Helvetica Neue";
   flex: 2;
   margin-right: 71px;
   margin-left: 50px;

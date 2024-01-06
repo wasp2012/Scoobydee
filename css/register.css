@@ -1,7 +1,7 @@
 body {
   background-color: #263138;
   color: #fff;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   position: absolute;
   overflow-x: hidden;
   /* overflow: hidden; */
@@ -185,6 +185,8 @@ button {
   font-weight: 500;
   letter-spacing: 0px;
   opacity: 1;
+  font-size: 65px;
+  margin-left: 30px;
 }
 
 .invite-text h3 {
@@ -217,10 +219,6 @@ button {
   margin-bottom: 60px;
   line-height: 10px;
   
-}
-.invite-text h1{
-  font-size: 65px;
-  margin-left: 30px;
 }
 
 .invite-text h3{
