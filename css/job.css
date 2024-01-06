@@ -1,8 +1,14 @@
+@font-face {
+    font-family: "Careem";
+    src: url('../assets/Careem\ Bold.ttf');
+    
+  }
+
 body{  overflow-x: hidden;
 }
 p {
     text-align: left;
-    /* font: normal normal bold 75px/86px "Helvetica Neue"; */
+    /* font: normal normal bold 75px/86px "Careem"; */
     color: #ffffff;
     opacity: 1;
     font-size: 49px;

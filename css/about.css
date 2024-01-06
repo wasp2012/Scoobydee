@@ -1,7 +1,13 @@
+
+@font-face {
+  font-family: "Careem";
+  src: url('../assets/Careem\ Bold.ttf');
+  
+}
 body {
     background-color: #263138;
     color: #fff;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Careem", Helvetica, Arial, sans-serif;
     position: absolute;
     height: 100%;
     overflow-x: hidden;
@@ -186,7 +192,7 @@ form {
   }
   
   .footer-box4 p {
-    font: normal normal bold 20px/23px "Helvetica Neue";
+    font: normal normal bold 20px/23px "Careem";
     flex: 2;
     margin-right: 71px;
     margin-left: 50px;

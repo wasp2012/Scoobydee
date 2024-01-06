@@ -1,7 +1,12 @@
+@font-face {
+  font-family: "Careem";
+  src: url('../assets/Careem\ Bold.ttf');
+  
+}
 body {
   background-color: #263138;
   color: #fff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Careem", Helvetica, Arial, sans-serif;
   position: absolute;
   overflow-x: hidden;
   /* overflow: hidden; */
@@ -43,6 +48,17 @@ form {
   width: 500px;
   height: 500px;
   margin-left: 300px;
+}
+
+h1 a{
+  color: white;
+  text-decoration: none;
+}
+
+h1 a:visited{
+  color: white;
+  text-decoration: none;
+
 }
 .special-cases {
   color: #ffb281;
